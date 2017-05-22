@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity" kind="class" language="Java" prot="public">
+    <compoundname>com::example::slam_2017_17::digicode_hertel::MainActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AppCompatActivity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1a68aa1299c1a1b86f5623492707fd4cc8" prot="private" static="no" mutable="no">
+        <type>EditText</type>
+        <definition>EditText com.example.slam_2017_17.digicode_hertel.MainActivity.ztLogin</definition>
+        <argsstring></argsstring>
+        <name>ztLogin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="java/com/example/slam_2017_17/digicode_hertel/MainActivity.java" line="14" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/MainActivity.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1a65b491cbcb6d28133973420ebb13b470" prot="private" static="no" mutable="no">
+        <type>EditText</type>
+        <definition>EditText com.example.slam_2017_17.digicode_hertel.MainActivity.ztMdp</definition>
+        <argsstring></argsstring>
+        <name>ztMdp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="java/com/example/slam_2017_17/digicode_hertel/MainActivity.java" line="15" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/MainActivity.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1a69cb09d44de60f6964af1d8febbc77c3" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button com.example.slam_2017_17.digicode_hertel.MainActivity.btConnect</definition>
+        <argsstring></argsstring>
+        <name>btConnect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="java/com/example/slam_2017_17/digicode_hertel/MainActivity.java" line="16" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/MainActivity.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1a0091fbc838e2b53600f6b9a9ff1ead86" prot="package" static="no" mutable="no">
+        <type><ref refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper" kindref="compound">DataBaseHelper</ref></type>
+        <definition>DataBaseHelper com.example.slam_2017_17.digicode_hertel.MainActivity.myDbHelper</definition>
+        <argsstring></argsstring>
+        <name>myDbHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="java/com/example/slam_2017_17/digicode_hertel/MainActivity.java" line="17" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/MainActivity.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1ac28f62bda94de44539157879a4a422e8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.slam_2017_17.digicode_hertel.MainActivity.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="java/com/example/slam_2017_17/digicode_hertel/MainActivity.java" line="19" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/MainActivity.java" bodystart="19" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>com.example.slam_2017_17.digicode_hertel.MainActivity</label>
+        <link refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>AppCompatActivity</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>SQLiteOpenHelper</label>
+      </node>
+      <node id="18">
+        <label>com.example.slam_2017_17.digicode_hertel.MainActivity</label>
+        <link refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>myDbHelper</edgelabel>
+        </childnode>
+      </node>
+      <node id="20">
+        <label>com.example.slam_2017_17.digicode_hertel.DataBaseHelper</label>
+        <link refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>AppCompatActivity</label>
+      </node>
+    </collaborationgraph>
+    <location file="java/com/example/slam_2017_17/digicode_hertel/MainActivity.java" line="11" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/MainActivity.java" bodystart="11" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1a69cb09d44de60f6964af1d8febbc77c3" prot="private" virt="non-virtual"><scope>com::example::slam_2017_17::digicode_hertel::MainActivity</scope><name>btConnect</name></member>
+      <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1a0091fbc838e2b53600f6b9a9ff1ead86" prot="package" virt="non-virtual"><scope>com::example::slam_2017_17::digicode_hertel::MainActivity</scope><name>myDbHelper</name></member>
+      <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1ac28f62bda94de44539157879a4a422e8" prot="protected" virt="non-virtual"><scope>com::example::slam_2017_17::digicode_hertel::MainActivity</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1a68aa1299c1a1b86f5623492707fd4cc8" prot="private" virt="non-virtual"><scope>com::example::slam_2017_17::digicode_hertel::MainActivity</scope><name>ztLogin</name></member>
+      <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1a65b491cbcb6d28133973420ebb13b470" prot="private" virt="non-virtual"><scope>com::example::slam_2017_17::digicode_hertel::MainActivity</scope><name>ztMdp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

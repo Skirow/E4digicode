@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="namespacecom_1_1example_1_1slam__2017__17_1_1digicode__hertel" kind="namespace" language="Java">
+    <compoundname>com::example::slam_2017_17::digicode_hertel</compoundname>
+    <innerclass refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_date_salle" prot="public">com::example::slam_2017_17::digicode_hertel::ChoixDateSalle</innerclass>
+    <innerclass refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle" prot="public">com::example::slam_2017_17::digicode_hertel::ChoixJourSalle</innerclass>
+    <innerclass refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper" prot="public">com::example::slam_2017_17::digicode_hertel::DataBaseHelper</innerclass>
+    <innerclass refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity" prot="public">com::example::slam_2017_17::digicode_hertel::MainActivity</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="java/com/example/slam_2017_17/digicode_hertel/ChoixDateSalle.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

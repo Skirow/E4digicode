@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_66de96f198bddc7e8e153d40623008c9" kind="dir">
+    <compoundname>java/com/example/slam_2017_17</compoundname>
+    <innerdir refid="dir_f83a5b4e57c8f51f9df2526e89f72569">java/com/example/slam_2017_17/digicode_hertel</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="java/com/example/slam_2017_17/"/>
+  </compounddef>
+</doxygen>

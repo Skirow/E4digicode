@@ -1,0 +1,155 @@
+\hypertarget{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper}{}\section{Référence de la classe com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper}
+\label{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper}\index{com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper@{com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper}}
+Graphe d\textquotesingle{}héritage de com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_aa76474b180d0e7768eb06c2aca5a248f}{Data\+Base\+Helper} (Context context)
+\item 
+void \hyperlink{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a656ab8a7805419414c90ea2b9eeb8900}{create\+Data\+Base} ()  throws I\+O\+Exception 
+\item 
+void \hyperlink{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a6467f9cd8cc5811f53fb16d41ca7d17d}{open\+Data\+Base} ()  throws S\+Q\+L\+Exception 
+\item 
+synchronized void \hyperlink{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a9ff7a57fb91953565e199d3e9a106a26}{close} ()
+\item 
+void \hyperlink{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_ac5e2fed16a8cb6b58b2768d76f8e324b}{on\+Create} (S\+Q\+Lite\+Database db)
+\item 
+void \hyperlink{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a73dd312883a54c1303ed2da7c2b0c3ca}{on\+Upgrade} (S\+Q\+Lite\+Database db, int old\+Version, int new\+Version)
+\item 
+boolean \hyperlink{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a818c178234e3dc3fb763445813f65153}{login} (String login, String password)
+\item 
+String \hyperlink{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a46c4117ccf1619dfe442ddf270e56c0d}{recup\+Digicode} (Integer jour, Integer salle)
+\item 
+String\mbox{[}$\,$\mbox{]} \hyperlink{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_af2239ca86b047c247925472348ab22a2}{recup\+Salles} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Created by slam-\/2017-\/17 on 21/04/2017. 
+
+Définition à la ligne 19 du fichier Data\+Base\+Helper.\+java.
+
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\hypertarget{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_aa76474b180d0e7768eb06c2aca5a248f}{}\index{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}!Data\+Base\+Helper@{Data\+Base\+Helper}}
+\index{Data\+Base\+Helper@{Data\+Base\+Helper}!com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}}
+\subsubsection[{Data\+Base\+Helper(\+Context context)}]{\setlength{\rightskip}{0pt plus 5cm}com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper.\+Data\+Base\+Helper (
+\begin{DoxyParamCaption}
+\item[{Context}]{context}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_aa76474b180d0e7768eb06c2aca5a248f}
+Constructor Takes and keeps a reference of the passed context in order to access to the application assets and resources. 
+\begin{DoxyParams}{Paramètres}
+{\em context} & \\
+\hline
+\end{DoxyParams}
+
+
+Définition à la ligne 34 du fichier Data\+Base\+Helper.\+java.
+
+
+
+\subsection{Documentation des fonctions membres}
+\hypertarget{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a9ff7a57fb91953565e199d3e9a106a26}{}\index{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}!close@{close}}
+\index{close@{close}!com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}}
+\subsubsection[{close()}]{\setlength{\rightskip}{0pt plus 5cm}synchronized void com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper.\+close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a9ff7a57fb91953565e199d3e9a106a26}
+
+
+Définition à la ligne 137 du fichier Data\+Base\+Helper.\+java.
+
+\hypertarget{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a656ab8a7805419414c90ea2b9eeb8900}{}\index{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}!create\+Data\+Base@{create\+Data\+Base}}
+\index{create\+Data\+Base@{create\+Data\+Base}!com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}}
+\subsubsection[{create\+Data\+Base()}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper.\+create\+Data\+Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throws I\+O\+Exception}\label{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a656ab8a7805419414c90ea2b9eeb8900}
+Creates a empty database on the system and rewrites it with your own database. 
+
+Définition à la ligne 43 du fichier Data\+Base\+Helper.\+java.
+
+\hypertarget{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a818c178234e3dc3fb763445813f65153}{}\index{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}!login@{login}}
+\index{login@{login}!com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}}
+\subsubsection[{login(\+String login, String password)}]{\setlength{\rightskip}{0pt plus 5cm}boolean com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper.\+login (
+\begin{DoxyParamCaption}
+\item[{String}]{login, }
+\item[{String}]{password}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a818c178234e3dc3fb763445813f65153}
+
+
+Définition à la ligne 161 du fichier Data\+Base\+Helper.\+java.
+
+\hypertarget{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_ac5e2fed16a8cb6b58b2768d76f8e324b}{}\index{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}!on\+Create@{on\+Create}}
+\index{on\+Create@{on\+Create}!com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}}
+\subsubsection[{on\+Create(\+S\+Q\+Lite\+Database db)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper.\+on\+Create (
+\begin{DoxyParamCaption}
+\item[{S\+Q\+Lite\+Database}]{db}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_ac5e2fed16a8cb6b58b2768d76f8e324b}
+
+
+Définition à la ligne 147 du fichier Data\+Base\+Helper.\+java.
+
+\hypertarget{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a73dd312883a54c1303ed2da7c2b0c3ca}{}\index{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}!on\+Upgrade@{on\+Upgrade}}
+\index{on\+Upgrade@{on\+Upgrade}!com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}}
+\subsubsection[{on\+Upgrade(\+S\+Q\+Lite\+Database db, int old\+Version, int new\+Version)}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper.\+on\+Upgrade (
+\begin{DoxyParamCaption}
+\item[{S\+Q\+Lite\+Database}]{db, }
+\item[{int}]{old\+Version, }
+\item[{int}]{new\+Version}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a73dd312883a54c1303ed2da7c2b0c3ca}
+
+
+Définition à la ligne 152 du fichier Data\+Base\+Helper.\+java.
+
+\hypertarget{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a6467f9cd8cc5811f53fb16d41ca7d17d}{}\index{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}!open\+Data\+Base@{open\+Data\+Base}}
+\index{open\+Data\+Base@{open\+Data\+Base}!com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}}
+\subsubsection[{open\+Data\+Base()}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper.\+open\+Data\+Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throws S\+Q\+L\+Exception}\label{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a6467f9cd8cc5811f53fb16d41ca7d17d}
+
+
+Définition à la ligne 128 du fichier Data\+Base\+Helper.\+java.
+
+\hypertarget{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a46c4117ccf1619dfe442ddf270e56c0d}{}\index{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}!recup\+Digicode@{recup\+Digicode}}
+\index{recup\+Digicode@{recup\+Digicode}!com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}}
+\subsubsection[{recup\+Digicode(\+Integer jour, Integer salle)}]{\setlength{\rightskip}{0pt plus 5cm}String com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper.\+recup\+Digicode (
+\begin{DoxyParamCaption}
+\item[{Integer}]{jour, }
+\item[{Integer}]{salle}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_a46c4117ccf1619dfe442ddf270e56c0d}
+
+
+Définition à la ligne 183 du fichier Data\+Base\+Helper.\+java.
+
+\hypertarget{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_af2239ca86b047c247925472348ab22a2}{}\index{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}!recup\+Salles@{recup\+Salles}}
+\index{recup\+Salles@{recup\+Salles}!com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper@{com\+::example\+::slam\+\_\+2017\+\_\+17\+::digicode\+\_\+hertel\+::\+Data\+Base\+Helper}}
+\subsubsection[{recup\+Salles()}]{\setlength{\rightskip}{0pt plus 5cm}String \mbox{[}$\,$\mbox{]} com.\+example.\+slam\+\_\+2017\+\_\+17.\+digicode\+\_\+hertel.\+Data\+Base\+Helper.\+recup\+Salles (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_af2239ca86b047c247925472348ab22a2}
+
+
+Définition à la ligne 195 du fichier Data\+Base\+Helper.\+java.
+
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+java/com/example/slam\+\_\+2017\+\_\+17/digicode\+\_\+hertel/\hyperlink{_data_base_helper_8java}{Data\+Base\+Helper.\+java}\end{DoxyCompactItemize}

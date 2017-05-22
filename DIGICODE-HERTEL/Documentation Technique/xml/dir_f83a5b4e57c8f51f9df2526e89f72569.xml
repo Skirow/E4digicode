@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_f83a5b4e57c8f51f9df2526e89f72569" kind="dir">
+    <compoundname>java/com/example/slam_2017_17/digicode_hertel</compoundname>
+    <innerfile refid="_choix_date_salle_8java">ChoixDateSalle.java</innerfile>
+    <innerfile refid="_choix_jour_salle_8java">ChoixJourSalle.java</innerfile>
+    <innerfile refid="_data_base_helper_8java">DataBaseHelper.java</innerfile>
+    <innerfile refid="_main_activity_8java">MainActivity.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="java/com/example/slam_2017_17/digicode_hertel/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.10">
+  <compound refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_date_salle" kind="class"><name>com::example::slam_2017_17::digicode_hertel::ChoixDateSalle</name>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_date_salle_1af124b5fc48424eb95d0521332ebf9acc" kind="variable"><name>datePicker</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_date_salle_1aa99cc402dcf4524e969ff291ba9a9379" kind="variable"><name>salleChoix</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_date_salle_1afb703eb7e5598a02cf71e36e42448866" kind="variable"><name>numSalle</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_date_salle_1a2d7631c9a6bd56d95ce2edadbef54458" kind="variable"><name>dbHelper</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_date_salle_1aa0d0c65d9f4a9b02b4cf632ed48e19bd" kind="variable"><name>jour</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_date_salle_1ae55f63ce0fff0a9bd9aee67ef8a53bec" kind="function"><name>onCreate</name></member>
+  </compound>
+  <compound refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle" kind="class"><name>com::example::slam_2017_17::digicode_hertel::ChoixJourSalle</name>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a1ae0e6a1ed613fde3b4467a7e7ed7b68" kind="variable"><name>datePicker</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a8ebc9f761bfcbb02557275587cc825cf" kind="variable"><name>salleChoix</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a15ca488815c6e88ecb401ef44f028886" kind="variable"><name>numSalle</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a617a63cada78c50d8b6291628cff1800" kind="variable"><name>dbHelper</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a9cdd37f26226862063723b5206f3d268" kind="variable"><name>jour</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a6d0887f1fed1de0ba657629c0cf181c5" kind="function"><name>onCreate</name></member>
+  </compound>
+  <compound refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper" kind="class"><name>com::example::slam_2017_17::digicode_hertel::DataBaseHelper</name>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1ac76e7c9dde33e179c6fda33777aece79" kind="variable"><name>DB_PATH</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1aa62b080e5e70f0186ebf79eda2dcfa8a" kind="variable"><name>DB_NAME</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1a7dc6f49c52d30a7f5be53abcf793031b" kind="variable"><name>myDataBase</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1a53c84e02be2cb24666668b94d665d009" kind="variable"><name>myContext</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1aa76474b180d0e7768eb06c2aca5a248f" kind="function"><name>DataBaseHelper</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1a656ab8a7805419414c90ea2b9eeb8900" kind="function"><name>createDataBase</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1a6467f9cd8cc5811f53fb16d41ca7d17d" kind="function"><name>openDataBase</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1a9ff7a57fb91953565e199d3e9a106a26" kind="function"><name>close</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1ac5e2fed16a8cb6b58b2768d76f8e324b" kind="function"><name>onCreate</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1a73dd312883a54c1303ed2da7c2b0c3ca" kind="function"><name>onUpgrade</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1a818c178234e3dc3fb763445813f65153" kind="function"><name>login</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1a46c4117ccf1619dfe442ddf270e56c0d" kind="function"><name>recupDigicode</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1af2239ca86b047c247925472348ab22a2" kind="function"><name>recupSalles</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1ae98f64bd818c86c247d18d62402ec881" kind="function"><name>checkDataBase</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper_1a3dd679783b0c86cae89031064147a6f0" kind="function"><name>copyDataBase</name></member>
+  </compound>
+  <compound refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity" kind="class"><name>com::example::slam_2017_17::digicode_hertel::MainActivity</name>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1a68aa1299c1a1b86f5623492707fd4cc8" kind="variable"><name>ztLogin</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1a65b491cbcb6d28133973420ebb13b470" kind="variable"><name>ztMdp</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1a69cb09d44de60f6964af1d8febbc77c3" kind="variable"><name>btConnect</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1a0091fbc838e2b53600f6b9a9ff1ead86" kind="variable"><name>myDbHelper</name></member>
+    <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_main_activity_1ac28f62bda94de44539157879a4a422e8" kind="function"><name>onCreate</name></member>
+  </compound>
+  <compound refid="namespacecom" kind="namespace"><name>com</name>
+  </compound>
+  <compound refid="namespacecom_1_1example" kind="namespace"><name>com::example</name>
+  </compound>
+  <compound refid="namespacecom_1_1example_1_1slam__2017__17" kind="namespace"><name>com::example::slam_2017_17</name>
+  </compound>
+  <compound refid="namespacecom_1_1example_1_1slam__2017__17_1_1digicode__hertel" kind="namespace"><name>com::example::slam_2017_17::digicode_hertel</name>
+  </compound>
+  <compound refid="_choix_date_salle_8java" kind="file"><name>ChoixDateSalle.java</name>
+  </compound>
+  <compound refid="_choix_jour_salle_8java" kind="file"><name>ChoixJourSalle.java</name>
+  </compound>
+  <compound refid="_data_base_helper_8java" kind="file"><name>DataBaseHelper.java</name>
+  </compound>
+  <compound refid="_main_activity_8java" kind="file"><name>MainActivity.java</name>
+  </compound>
+  <compound refid="dir_8a22873406ddef3ffbbc0bacea2033ba" kind="dir"><name>java/com</name>
+  </compound>
+  <compound refid="dir_f83a5b4e57c8f51f9df2526e89f72569" kind="dir"><name>java/com/example/slam_2017_17/digicode_hertel</name>
+  </compound>
+  <compound refid="dir_2fc4ba4b35e9b10994fcfec8aefd8e83" kind="dir"><name>java/com/example</name>
+  </compound>
+  <compound refid="dir_93c6ba7fb77bae0709fae89c9c13b44a" kind="dir"><name>java</name>
+  </compound>
+  <compound refid="dir_66de96f198bddc7e8e153d40623008c9" kind="dir"><name>java/com/example/slam_2017_17</name>
+  </compound>
+</doxygenindex>

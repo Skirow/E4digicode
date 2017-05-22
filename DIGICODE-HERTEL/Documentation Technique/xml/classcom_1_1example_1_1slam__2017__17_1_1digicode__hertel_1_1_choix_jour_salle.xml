@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle" kind="class" language="Java" prot="public">
+    <compoundname>com::example::slam_2017_17::digicode_hertel::ChoixJourSalle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AppCompatActivity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a1ae0e6a1ed613fde3b4467a7e7ed7b68" prot="private" static="no" mutable="no">
+        <type>DatePicker</type>
+        <definition>DatePicker com.example.slam_2017_17.digicode_hertel.ChoixJourSalle.datePicker</definition>
+        <argsstring></argsstring>
+        <name>datePicker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" line="16" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a8ebc9f761bfcbb02557275587cc825cf" prot="package" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView com.example.slam_2017_17.digicode_hertel.ChoixJourSalle.salleChoix</definition>
+        <argsstring></argsstring>
+        <name>salleChoix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" line="17" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a15ca488815c6e88ecb401ef44f028886" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.example.slam_2017_17.digicode_hertel.ChoixJourSalle.numSalle</definition>
+        <argsstring></argsstring>
+        <name>numSalle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" line="18" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a617a63cada78c50d8b6291628cff1800" prot="package" static="no" mutable="no">
+        <type><ref refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper" kindref="compound">DataBaseHelper</ref></type>
+        <definition>DataBaseHelper com.example.slam_2017_17.digicode_hertel.ChoixJourSalle.dbHelper</definition>
+        <argsstring></argsstring>
+        <name>dbHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" line="19" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a9cdd37f26226862063723b5206f3d268" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.example.slam_2017_17.digicode_hertel.ChoixJourSalle.jour</definition>
+        <argsstring></argsstring>
+        <name>jour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" line="21" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a6d0887f1fed1de0ba657629c0cf181c5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.slam_2017_17.digicode_hertel.ChoixJourSalle.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Tableau des salles </para>        </inbodydescription>
+        <location file="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" line="23" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" bodystart="23" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>com.example.slam_2017_17.digicode_hertel.ChoixJourSalle</label>
+        <link refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>AppCompatActivity</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>SQLiteOpenHelper</label>
+      </node>
+      <node id="11">
+        <label>TextView</label>
+      </node>
+      <node id="9">
+        <label>com.example.slam_2017_17.digicode_hertel.DataBaseHelper</label>
+        <link refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_data_base_helper"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>com.example.slam_2017_17.digicode_hertel.ChoixJourSalle</label>
+        <link refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>dbHelper</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>salleChoix</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>AppCompatActivity</label>
+      </node>
+    </collaborationgraph>
+    <location file="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" line="14" column="1" bodyfile="java/com/example/slam_2017_17/digicode_hertel/ChoixJourSalle.java" bodystart="14" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a1ae0e6a1ed613fde3b4467a7e7ed7b68" prot="private" virt="non-virtual"><scope>com::example::slam_2017_17::digicode_hertel::ChoixJourSalle</scope><name>datePicker</name></member>
+      <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a617a63cada78c50d8b6291628cff1800" prot="package" virt="non-virtual"><scope>com::example::slam_2017_17::digicode_hertel::ChoixJourSalle</scope><name>dbHelper</name></member>
+      <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a9cdd37f26226862063723b5206f3d268" prot="package" virt="non-virtual"><scope>com::example::slam_2017_17::digicode_hertel::ChoixJourSalle</scope><name>jour</name></member>
+      <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a15ca488815c6e88ecb401ef44f028886" prot="package" virt="non-virtual"><scope>com::example::slam_2017_17::digicode_hertel::ChoixJourSalle</scope><name>numSalle</name></member>
+      <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a6d0887f1fed1de0ba657629c0cf181c5" prot="protected" virt="non-virtual"><scope>com::example::slam_2017_17::digicode_hertel::ChoixJourSalle</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1example_1_1slam__2017__17_1_1digicode__hertel_1_1_choix_jour_salle_1a8ebc9f761bfcbb02557275587cc825cf" prot="package" virt="non-virtual"><scope>com::example::slam_2017_17::digicode_hertel::ChoixJourSalle</scope><name>salleChoix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
